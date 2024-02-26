@@ -8,6 +8,10 @@ const getReminders = asyncHandler(async (req, res) => {
   res.send('reminders!')
 })
 
+// @docs  Fetch Single reminder
+// @Route GET /api/reminders/:id
+// @access  Public
+
 const getReminderById = asyncHandler(async (req, res) => {
   res.send('reminder')
 })
