@@ -24,4 +24,8 @@ const deleteReminder = asyncHandler(async (req, res) => {
   res.send('reminder')
 })
 
-export { createReminder, getReminderById, getReminders, updateReminder }
+const getTopReminders = asyncHandler(async (req, res) => {
+  res.send('reminder')
+})
+
+export { createReminder, deleteReminder, getReminderById, getReminders, updateReminder }
