@@ -10,13 +10,13 @@ export default {
     },
     {
       name: 'Moderator',
-      email: 'john@email.com',
+      email: 'users@email.com',
       password: bcrypt.hashSync('123456', 10),
       role: 'moderator',
     },
     {
-      name: 'Jane Doe',
-      email: 'jane@email.com',
+      name: 'user',
+      email: 'user@email.com',
       password: bcrypt.hashSync('123456', 10),
       role: 'user',
     },
