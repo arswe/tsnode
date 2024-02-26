@@ -1,0 +1,21 @@
+{
+  "name": "tsnode",
+  "version": "1.0.0",
+  "description": "typescript with node make restfull api",
+  "main": "app.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "nodemon --exec ts-node app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
