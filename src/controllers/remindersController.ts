@@ -48,6 +48,10 @@ const getTopReminders = asyncHandler(async (req, res) => {
   res.send('reminder')
 })
 
+// @docs    Create new reminder review
+// @Route   POST /api/reminders/:id/reviews
+// @access  Private
+
 const createReminderReview = asyncHandler(async (req, res) => {
   res.send('reminder')
 })
