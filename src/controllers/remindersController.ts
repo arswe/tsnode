@@ -32,4 +32,12 @@ const createReminderReview = asyncHandler(async (req, res) => {
   res.send('reminder')
 })
 
-export { createReminder, createReminderReview, deleteReminder, getReminderById, getReminders, updateReminder }
+export {
+  createReminder,
+  createReminderReview,
+  deleteReminder,
+  getReminderById,
+  getReminders,
+  getTopReminders,
+  updateReminder,
+}
