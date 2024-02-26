@@ -16,6 +16,10 @@ const getReminderById = asyncHandler(async (req, res) => {
   res.send('reminder')
 })
 
+// @docs  Create reminder
+// @Route POST /api/reminders
+// @access  Private
+
 const createReminder = asyncHandler(async (req, res) => {
   res.send('reminder')
 })
