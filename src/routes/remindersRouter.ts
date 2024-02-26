@@ -3,6 +3,7 @@ import { getReminderById, getReminders } from '../controllers/remindersControlle
 
 const router = Router()
 
-router.get('/').get(getReminders).post(getReminderById)
+router.route('/').get(getReminders)
+router.route('/:id').get(getReminderById)
 
 export default router
