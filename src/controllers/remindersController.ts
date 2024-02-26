@@ -13,11 +13,12 @@ const getReminderById = asyncHandler(async (req: Request, res: Response) => {
   res.send('reminder')
 })
 
-
 const createReminder = asyncHandler(async (req: Request, res: Response) => {
   res.send('reminder')
-}
+})
 
+const updateReminder = asyncHandler(async (req: Request, res: Response) => {
+  res.send('reminder')
+})
 
-  export { getReminderById, getReminders }
-
+export { createReminder, getReminderById, getReminders, updateReminder }
