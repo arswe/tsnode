@@ -12,5 +12,5 @@ const port = process.env.PORT || 8080
 app.use('/api/reminders', remindersRouter)
 
 app.listen(port, () => {
-  console.log(colors.rainbow(`Backend Running  http://localhost:${port}`).bold)
+  console.log(colors.rainbow(`Backend Running http://localhost:${port}`).bold)
 })
