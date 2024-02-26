@@ -40,6 +40,10 @@ const deleteReminder = asyncHandler(async (req, res) => {
   res.send('reminder')
 })
 
+// @docs    Get top reminders
+// @Route   GET /api/reminders/top
+// @access  Public
+
 const getTopReminders = asyncHandler(async (req, res) => {
   res.send('reminder')
 })
