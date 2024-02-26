@@ -1,32 +1,40 @@
 import asyncHandler from '../middlewares/asyncHandler'
 
-// @docs  Fetch All reminder
-// @Route GET /api/reminders
+// @docs    Fetch All reminder
+// @Route   GET /api/reminders
 // @access  Public
 
 const getReminders = asyncHandler(async (req, res) => {
   res.send('reminders!')
 })
 
-// @docs  Fetch Single reminder
-// @Route GET /api/reminders/:id
+// @docs    Fetch Single reminder
+// @Route   GET /api/reminders/:id
 // @access  Public
 
 const getReminderById = asyncHandler(async (req, res) => {
   res.send('reminder')
 })
 
-// @docs  Create reminder
-// @Route POST /api/reminders
+// @docs    Create reminder
+// @Route   POST /api/reminders
 // @access  Private
 
 const createReminder = asyncHandler(async (req, res) => {
   res.send('reminder')
 })
 
+// @docs    Update reminder
+// @Route   PUT /api/reminders/:id
+// @access  Private
+
 const updateReminder = asyncHandler(async (req, res) => {
   res.send('reminder')
 })
+
+// @docs    Delete reminder
+// @Route   DELETE /api/reminders/:id
+// @access  Private
 
 const deleteReminder = asyncHandler(async (req, res) => {
   res.send('reminder')
