@@ -6,11 +6,11 @@ import asyncHandler from '../middlewares/asyncHandler'
 // @access  Public
 
 const getReminders = asyncHandler(async (req: Request, res: Response) => {
-  res.send('Hello reminders!')
+  res.send('reminders!')
 })
 
 const getReminderById = asyncHandler(async (req: Request, res: Response) => {
-  res.send('Hello reminders!')
+  res.send('reminder')
 })
 
 export { getReminderById, getReminders }
