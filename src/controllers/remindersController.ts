@@ -1,35 +1,26 @@
-import { Request, Response } from 'express'
 import asyncHandler from '../middlewares/asyncHandler'
 
 // @docs  Fetch All reminder
 // @Route GET /api/reminders
 // @access  Public
 
-const getReminders = asyncHandler(async (req: Request, res: Response) => {
+const getReminders = asyncHandler(async (req, res) => {
   res.send('reminders!')
 })
 
-const getReminderById = asyncHandler(async (req: Request, res: Response) => {
+const getReminderById = asyncHandler(async (req, res) => {
   res.send('reminder')
 })
 
-const createReminder = asyncHandler(async (req: Request, res: Response) => {
+const createReminder = asyncHandler(async (req, res) => {
   res.send('reminder')
 })
 
-const updateReminder = asyncHandler(async (req: Request, res: Response) => {
+const updateReminder = asyncHandler(async (req, res) => {
   res.send('reminder')
 })
 
-const deleteReminder = asyncHandler(async (req: Request, res: Response) => {
-  res.send('reminder')
-})
-
-const getTopReminders = asyncHandler(async (req: Request, res: Response) => {
-  res.send('reminder')
-})
-
-const createReminderReview = asyncHandler(async (req: Request, res: Response) => {
+const deleteReminder = asyncHandler(async (req, res) => {
   res.send('reminder')
 })
 
