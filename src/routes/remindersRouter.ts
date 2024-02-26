@@ -1,11 +1,8 @@
 import { Router } from 'express'
-import { getReminders } from '../controllers/remindersController'
-import { CreateReminderDto } from '../dto/CreateReminderDto'
+import { getReminderById, getReminders } from '../controllers/remindersController'
 
 const router = Router()
 
-router.get('/').get(getReminders)
-
-
+router.get('/').get(getReminders).post(getReminderById)
 
 export default router
